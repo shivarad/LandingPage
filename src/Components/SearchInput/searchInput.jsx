@@ -1,5 +1,5 @@
 import searchIcon from "../../SvgFiles/searchIcon.svg";
-import { SearchBox } from "./searchInputStyles";
+import { SearchBox,InputText } from "./searchInputStyles";
 
 const SearchInput = () => {
   return (
@@ -9,15 +9,7 @@ const SearchInput = () => {
         alt="search"
         style={{ padding: "8px", height: "33px" }}
       />
-      <input
-        style={{
-          border: "none",
-          background: "transparent",
-          height: "100%",
-          color: "rgba(255, 255, 255, 0.5)",
-          width: "90%",
-          outline: "none",
-        }}
+      <InputText
         placeholder="Search"
       />
     </SearchBox>
